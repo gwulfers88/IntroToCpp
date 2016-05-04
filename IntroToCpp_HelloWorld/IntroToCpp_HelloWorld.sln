@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IntroToCpp_HelloWorld", "IntroToCpp_HelloWorld\IntroToCpp_HelloWorld.vcxproj", "{09C4A097-A09D-4183-A1AD-5F30DA3AD05B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IntroToCpp_DataTypes", "IntroToCpp_DataTypes\IntroToCpp_DataTypes.vcxproj", "{9BA90244-0245-4674-9C8C-7A9E154F612A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -15,6 +17,10 @@ Global
 		{09C4A097-A09D-4183-A1AD-5F30DA3AD05B}.Debug|Win32.Build.0 = Debug|Win32
 		{09C4A097-A09D-4183-A1AD-5F30DA3AD05B}.Release|Win32.ActiveCfg = Release|Win32
 		{09C4A097-A09D-4183-A1AD-5F30DA3AD05B}.Release|Win32.Build.0 = Release|Win32
+		{9BA90244-0245-4674-9C8C-7A9E154F612A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9BA90244-0245-4674-9C8C-7A9E154F612A}.Debug|Win32.Build.0 = Debug|Win32
+		{9BA90244-0245-4674-9C8C-7A9E154F612A}.Release|Win32.ActiveCfg = Release|Win32
+		{9BA90244-0245-4674-9C8C-7A9E154F612A}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
