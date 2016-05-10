@@ -45,31 +45,33 @@
 	{
 		//Do stuff here
 	}while( condition )
-*/
-#include <iostream>
-#include <string>
 
-using namespace std;
 
-string name = "This is a string";
+	functions
+	
+	type name( parameters, more parameters, and more)
+	{
+		//do stuff
 
-int main()
-{
-start:
+		return type_value;
+	}
+
+
+	start:
 	//for loop
 	/*for (int i = 0; i < 1000; i++)
 	{
-		cout << i << " ";
-	}*/
+	cout << i << " ";
+	}
 
 	//for each loop
-	/*for (char c : name)
+	for (char c : name)
 	{
-		if (c >= 'A' && c <= 'Z')
-			c += 32;
+	if (c >= 'A' && c <= 'Z')
+	c += 32;
 
-		cout << c;
-	}*/
+	cout << c;
+	}
 
 	//while loop
 	int count = 0;
@@ -80,15 +82,15 @@ start:
 	//}
 
 	//do while loops
-	/*do
+	do
 	{
-		cout << count++ << " ";
-	} 
-	while (count < 100);*/
+	cout << count++ << " ";
+	}
+	while (count < 100);
 
 	//Jump statements
 	//We want to define a lable to let the program know where to jump to
-loop:	//loop lable
+	loop:	//loop lable
 
 	cout << count++ << " ";
 
@@ -120,9 +122,72 @@ loop:	//loop lable
 	default:
 		printf("Your number is What ever!\n");
 	}
-	
+
 	system("pause");
 
-exit:	//exit lable
+	exit:	//exit lable
+*/
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int Add(int a, int b);
+
+int Add(int a, int b)
+{
+	int result = 0;
+
+	result = a + b;
+	
+	return result;
+}
+
+void passByRef(int *ref)
+{
+	*ref /= 2;
+}
+
+//The compiler replaces the function call with the actual function block.
+inline int Subtract(int a, int b)
+{
+	int res = a - b;
+	return res;
+}
+
+//Recursive: a function that calls itself.
+//Solve what 5! (5 Factorial). n! = n * n-1 * n-2 * n-3 .... 1. 5! = 5 * 4 * 3 * 2 * 1 = 120.
+int factorial(int n)
+{
+	if (n < 1)
+		return 1;
+
+	int res = factorial(n - 1);
+
+	printf("%d * ", n);
+
+	return res * n;
+}
+
+int main()
+{
+	int ref = 100;
+	passByRef(&ref);
+
+	printf("ref: %d \n", ref);
+
+	int res = Add(10, 10);
+
+	//printf("Add: %d \n", res);
+
+	res = Subtract(10, 10);
+	printf("Sub: %d \n", res);
+
+	int n = 10;
+	res = factorial(n);
+	printf("\n%d! factorial is %d\n", n, res);
+
+	getchar();
+
 	return 0;
 }
