@@ -37,7 +37,12 @@ const float PI = 3.14159265359f;	//Make variables constant if they are not meant
 	Arithmetic Operators: +, -, *, /, %
 	Bitwise operators: &(AND) |(OR) ^(XOR) ~(NOT)
 	Conditional Operators: &&(AND) ||(OR) !(NOT) !=(NOT EQUALS) ==(EQUALS) <(LESS THAN) >(GREATER THAN) 
-	+=, -=, *=, /=, !=, &=, |=, <=, >=
+	Compound: +=, -=, *=, /=,
+	Relational: !=, &=, |=, <=, >=
+
+	int a = 5;
+	int b = 2;
+	a -= b is the same as a = a - b; = 3
 */
 
 /*
@@ -56,7 +61,7 @@ int main(void)
 	
 	//Compare a and b
 	//When we have an && both conditions have to be true
-	if (a > 10 && b < 10) 
+	if (a > 10 && b < 10)
 	{
 		//If the statement above is true then we runt this code.
 		printf("true\n");
@@ -72,7 +77,6 @@ int main(void)
 	{
 		//If the statement above is true then we runt this code.
 		printf("A is true\n");
-		
 	}
 	else if (a < 10 || b > 10)
 		printf("B is true\n");
@@ -92,7 +96,7 @@ int main(void)
 	{
 		printf("array: %.02f\n", arr1[i]);	// %d, %f, %s, %c
 	}
-
+	
 	getchar();
 
 	return 0;

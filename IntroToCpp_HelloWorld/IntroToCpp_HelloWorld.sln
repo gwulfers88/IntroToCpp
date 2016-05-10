@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IntroToCpp_DataTypes", "Int
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IntroToCpp_OperatorsConstants", "IntroToCpp_OperatorsConstants\IntroToCpp_OperatorsConstants.vcxproj", "{BAFA7C8F-3775-424C-BC44-457DA6CCF40E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IntroToCpp_ LoopsFunctions", "IntroToCpp_ LoopsFunctions\IntroToCpp_ LoopsFunctions.vcxproj", "{E0ED6713-0A16-4EEE-8BB7-B802EBCD4152}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -27,6 +29,10 @@ Global
 		{BAFA7C8F-3775-424C-BC44-457DA6CCF40E}.Debug|Win32.Build.0 = Debug|Win32
 		{BAFA7C8F-3775-424C-BC44-457DA6CCF40E}.Release|Win32.ActiveCfg = Release|Win32
 		{BAFA7C8F-3775-424C-BC44-457DA6CCF40E}.Release|Win32.Build.0 = Release|Win32
+		{E0ED6713-0A16-4EEE-8BB7-B802EBCD4152}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E0ED6713-0A16-4EEE-8BB7-B802EBCD4152}.Debug|Win32.Build.0 = Debug|Win32
+		{E0ED6713-0A16-4EEE-8BB7-B802EBCD4152}.Release|Win32.ActiveCfg = Release|Win32
+		{E0ED6713-0A16-4EEE-8BB7-B802EBCD4152}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
