@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IntroToCpp_OperatorsConstan
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IntroToCpp_ LoopsFunctions", "IntroToCpp_ LoopsFunctions\IntroToCpp_ LoopsFunctions.vcxproj", "{E0ED6713-0A16-4EEE-8BB7-B802EBCD4152}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IntroToCpp_FuncOverloadTemplates", "IntroToCpp_FuncOverloadTemplates\IntroToCpp_FuncOverloadTemplates.vcxproj", "{972F0EEB-BD44-4B28-BAB3-114027553156}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -33,6 +35,10 @@ Global
 		{E0ED6713-0A16-4EEE-8BB7-B802EBCD4152}.Debug|Win32.Build.0 = Debug|Win32
 		{E0ED6713-0A16-4EEE-8BB7-B802EBCD4152}.Release|Win32.ActiveCfg = Release|Win32
 		{E0ED6713-0A16-4EEE-8BB7-B802EBCD4152}.Release|Win32.Build.0 = Release|Win32
+		{972F0EEB-BD44-4B28-BAB3-114027553156}.Debug|Win32.ActiveCfg = Debug|Win32
+		{972F0EEB-BD44-4B28-BAB3-114027553156}.Debug|Win32.Build.0 = Debug|Win32
+		{972F0EEB-BD44-4B28-BAB3-114027553156}.Release|Win32.ActiveCfg = Release|Win32
+		{972F0EEB-BD44-4B28-BAB3-114027553156}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
